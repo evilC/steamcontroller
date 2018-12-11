@@ -6,7 +6,7 @@ If you only want to play with the C# code:
 1. Right-click the `Test` project and select `Set as StartUp Project`
 1. Hit F5
 
-If you do want to build the `SteamController.dll` yourself, Download CMake, run the CMake GUI, point it at the root of the repo as the source, and another folder as the build folder, it will spit out a folder with SLN files in it - open `LibSteamController.sln` and you can compile to there.  
+If you do want to build the `SteamController.dll` yourself, Download CMake, run the CMake GUI, point it at the root of the repo as the source, and another folder as the build folder, it will spit out a folder with SLN files in it - open `LibSteamController.sln` and you can compile from there. The Dll will be in either `Debug` or `Release` next to the SLN file.  
 
 Naming is a little confusing - The C# library builds to `SteamControllerMono.dll`, even though it is called `SteamController`.  
 
