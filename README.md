@@ -1,3 +1,18 @@
+# evilC fork Notes
+
+If you only want to play with the C# code:
+1. Download a release from the releases page, and put `SteamController.dll` into your build folder for the Test App (`\steamcontroller\sharp\SteamController\Test\bin\Debug`).  
+1. Open `sharp\SteamController\SteamController.sln`  
+1. Right-click the `Test` project and select `Set as StartUp Project`
+1. Hit F5
+
+If you do want to build the `SteamController.dll` yourself, Download CMake, run the CMake GUI, point it at the root of the repo as the source, and another folder as the build folder, it will spit out a folder with SLN files in it - open `LibSteamController.sln` and you can compile to there.  
+
+Naming is a little confusing - The C# library builds to `SteamControllerMono.dll`, even though it is called `SteamController`.  
+
+=======================
+
+
 # Steam Controller Library
 
 This is a little C library for Linux based operating systems that allows accessing the Steam Wireless Controller as a gamepad. It exposes all button and axis data as well as acceleration, angular velocity and spatial orientation. 
